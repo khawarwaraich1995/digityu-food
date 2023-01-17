@@ -118,17 +118,11 @@ class AuthController extends Controller
         return response(['status' => ($statusCode == 200 ? true : false), 'message' => ($statusCode == 200 ? 'Login Successfully' : $message), "data" => ($data ?? array()), 'accessToken' => $token, 'token_type' => 'Bearer'], $statusCode);
     }
     public function logout (Request $request) {
-        $token = "";
-        $statusCode = 401;
-        $message = "Invalid information";
-        dd($request->user());
-        if($request->user()) {
-            if($request->user()->token()) {
-                $request->user()->token()->revoke();
-                $statusCode = 200;
-                $message = 'You have been successfully logged out!';
-            }
-        }
+        
+        $request->user()->token()->revoke();
+        $statusCode = 200;
+        $message = 'You have been successfully logged out!';
+  
         return response(['status' => ($statusCode == 200 ? true : false), 'message' => $message], $statusCode);
     }
 }
