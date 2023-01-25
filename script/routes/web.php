@@ -31,10 +31,17 @@ Route::group(['domain' => env('APP_URL')], function($domain)
 {
 
     Auth::routes();
-    // Route::get('/','WelcomeController@index')->name('welcome');
-    Route::get('/', function(){
-        return view('coming_soon');
-    });
+    Route::get('/','WelcomeController@index')->name('welcome');
+    Route::get('/home-app','WelcomeController@app')->name('home-app');
+    Route::get('/home-aboutus','WelcomeController@aboutus')->name('home-aboutus');
+    Route::get('/home-features','WelcomeController@features')->name('home-features');
+    Route::get('/home-login','WelcomeController@login')->name('home-login');
+    Route::get('/home-signup','WelcomeController@signup')->name('home-signup');
+    Route::get('/home-pricing','WelcomeController@pricing')->name('home-pricing');
+    Route::get('/home-contactus','WelcomeController@contactus')->name('home-contactus');
+    // Route::get('/', function(){
+    //     return view('coming_soon');
+    // });
     Route::get('blog/{title}','BlogController@show')->name('blog.show');
     Route::get('blogs/search','BlogController@search')->name('blog.search');
     Route::get('blogs','BlogController@lists')->name('blog.lists');

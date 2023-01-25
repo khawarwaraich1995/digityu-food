@@ -1,291 +1,579 @@
-@extends('layouts.frontend.app')
+@extends('layouts.digityu.app')
 
 @section('title','HomePage')
 
 @section('content')
 <!-- header area start -->
-@include('layouts.frontend.partials.header')
+@include('layouts.digityu.partials.header')
 <!-- header area end -->
 
-<!-- hero area start -->
-<section>
-  <div class="hero-area">
-      <div class="container">
-          <div class="row align-items-center">
-              <div class="col-lg-5">
-                  <div class="hero-content">
-                      <h2>{{ __('hero_title') }}</h2>
-                      <p>{{ __("hero_des") }}</p>
-                        <form action="{{ route('register') }}" method="GET">
-                            @csrf 
-                            <div class="hero-input">
-                                <div class="input-filed">
-                                    <div class="input-icon">
-                                        <span>@</span>
+<section class="main-header">
+    <div class="digityu-bg-main">
+        <div class="bg-div">
+            <div class="rectangle-div"></div>
+            <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'ellipse-19.svg') }}" class="ellipse-icon" alt="">
+                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'ellipse-20.svg') }}" class="ellipse-icon" alt="">
+                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'ellipse-21.svg') }}" class="ellipse-icon1" alt="">
+
+                <div class=" digityu-main">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <h1>Start your online</h1>
+                            <h1>store today!</h1>
+                            <p>Lorem ipsum is a placeholder text commonly</p>
+                            <p class="p1">Lorem ipsum is a placeholder text</p>
+                            <button class="start-your-online-store">Start your online store</button>
+                        </div>
+
+                        <div class="col-lg-6 col-md-12 cart-block">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 ">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="digityu-main-div1 d-flex mt-3">
+                                                <div class="digityu-main-div1-style">
+                                                    <i class="fa fa-chevron-left"></i>
+                                                </div>
+                                                <h5>My Cart</h5>
+                                            </div>
+
+                                            <div class="digityu-main-div2 p-2 mt-3">
+                                                <div class="d-flex">
+                                                    <div class="digityu-main-div2-style">
+                                                        <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'rectangle-4617@2x.png') }}" width="35px" height="50px" alt="">
+        </div>
+        <h6 class="mx-2">1Nike Men’s JoyrideRun Flyknit shoes</h6>
+    </div>
+    </div>
+    <div class="digityu-main-div3 d-flex mt-3 p-2">
+        <h6>Offers</h6>
+        <h6 class="ms-auto">Add Code</h6>
+    </div>
+
+    <div class="digityu-main-div3 mt-2 p-2">
+        <h6>Order Summary</h6>
+        <div class="d-flex">
+            <h6>Order</h6>
+            <h6 class="ms-auto">$681</h6>
+        </div>
+        <div class="d-flex">
+            <h6>Delivery</h6>
+            <h6 class="ms-auto">$6</h6>
+        </div>
+        <div class="d-flex">
+            <h6>Total</h6>
+            <h6 class="ms-auto">$687</h6>
+        </div>
+    </div>
+
+    <div class="digityu-main-div3 d-flex mt-3 p-2">
+        <h6>Address</h6>
+        <h6 class="ms-auto">TD53, Kaya...</h6>
+    </div>
+    <div class="mt-4">
+        <button class="btn-check-out">Check Out</button>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-lg-6 col-md-6 mt-5">
+        <div class="card mt-5">
+            <div class="card-body">
+                <div class="digityu-main-div5 d-flex mt-3">
+                    <div class="digityu-main-div5-style">
+                        <i class="fa fa-chevron-left"></i>
+                    </div>
+                    <h5>Payment Methods</h5>
+                </div>
+                <div class="digityu-main-div3 d-flex mt-3 p-2">
+                    <h6>Payment</h6>
+                    <h6 class="ms-auto"> <i class="fa fa-chevron-right"></i></h6>
+                </div>
+
+                <div class="digityu-main-div3 d-flex mt-3 p-2">
+                    <h6>Debit Cards</h6>
+                    <h6 class="ms-auto"><i class="fa fa-chevron-right"></i></h6>
+                </div>
+
+                <div class="digityu-main-div3 mt-3 p-2">
+                    <div class="d-flex">
+                        <h6>Debit Cards</h6><span class="ms-auto"><i class="fa fa-chevron-down"></i></span>
+                    </div>
+                    <hr class="text-muted">
+                    <div class="digityu-main-div3 d-flex p-2">
+                        <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'rectangle-9@2x.png') }}" width="25px" alt="">
+                        <h6 class="mx-1">Axis Bank xxxx68</h6>
+                        <h6 class="ms-auto"><i class="fa fa-circle text-dark"></i></h6>
+                    </div>
+                    <div class="digityu-main-div3 d-flex p-2 mt-2">
+                        <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'rectangle-9@2x.png') }}" width="25px" alt="">
+                        <h6 class="mx-1">VYX Bank xxxx54</h6>
+                        <h6 class="ms-auto"><i class="fa fa-circle text-muted"></i></h6>
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <button class="btn-check-out">Pay Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    </div>
+</section>
+
+<section class="digityu-project">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <h2>Get detailed time and data for every project</h2>
+                <p>App landing pages are web pages designed to promote your mobile application & drive downloads.
+                    With Sark your leads will land to get more information about your app and to download it.</p>
+                <hr>
+                <div class="d-flex digityu-project-demo">
+                    <h1>2.4x</h1>
+                    <span class="mx-3 mt-2">Mobile apps convert 3.5x higher than mobile websites</span>
+                </div>
+                <button class="digityu-project-btn" type="button">Explore Now</button>
+            </div>
+
+            <div class="col-lg-7">
+                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'Image5].png') }}" width="100%" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="digityu-home-chart">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h6>130+ Handcoded Blocks</h6>
+                <h2>Mixland helps you build beautiful website</h2>
+            </div>
+            <div class="col-lg-4 mt-5">
+                <div class="demo-shadows">
+                    <div class="crad-body">
+                        <div class="pb-3 d-flex align-items-center">
+                            <span class="btn btn-home-chart">
+                                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'icon20.svg') }}" alt="" width="50px" srcset="">
+                            </span>
+                            <div class="home-chart-one ms-4">
+                                <h4 class="home-chart-one fw-bold mb-2">Simply Copy & Paste</h4>
+                                <span class="text-muted">Many desktop publishing packages and web page editors now
+                                    use for them.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="demo-shadows mt-3">
+                    <div class="crad-body">
+                        <div class="pb-3 d-flex align-items-center">
+                            <span class="btn btn-home-chart">
+                                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'icon21.svg') }}" alt="" width="50px" srcset="">
+                            </span>
+                            <div class="home-chart-one ms-4">
+                                <h4 class="home-chart-one fw-bold mb-2">Simply Copy & Paste</h4>
+                                <span class="text-muted">Many desktop publishing packages and web page editors now
+                                    use for them.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="demo-shadows mt-3">
+                    <div class="crad-body">
+                        <div class="pb-3 d-flex align-items-center">
+                            <span class="btn btn-home-chart">
+                                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'icon22.svg') }}" alt="" width="50px" srcset="">
+                            </span>
+                            <div class="home-chart-one ms-4">
+                                <h4 class="home-chart-one fw-bold mb-2">Simply Copy & Paste</h4>
+                                <span class="text-muted">Many desktop publishing packages and web page editors now
+                                    use for them.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8">
+                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'Image7.png') }}" width="100%" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="digityu-standard-process">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>We always follow the standard work process</h2>
+                <p>We solve clients' projects in a simple & efficient way</p>
+            </div>
+
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 mt-4 mb-4">
+
+                        <div class="digityu-standard-process-design">
+                            <div class="digit-circles">
+                                <b>1</b>
+                            </div>
+                            <h6 class="mt-2">Research</h6>
+                            <h6>We do research before we start any projects</h6>
+                        </div>
+                        <div class="digityu-standard-process-design">
+
+                            <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'vector-32.svg') }}" width="145px" class="digram-800 digityu-none" alt="">
+                        </div>
+                        <div class="digityu-standard-process-design">
+                            <div class="digit-circles">
+                                <b>1</b>
+                            </div>
+
+                            <h6 class="mt-2">Research</h6>
+                            <h6>We do research before we start any projects</h6>
+                        </div>
+                        <div class="digityu-standard-process-design">
+
+                            <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'vector-33.svg') }}" width="145px" class="digram-800 digityu-none" alt="">
+                        </div>
+                        <div class="digityu-standard-process-design">
+                            <div class="digit-circles">
+                                <b>1</b>
+                            </div>
+                            <h6 class="mt-2">Research</h6>
+                            <h6>We do research before we start any projects</h6>
+                        </div>
+                        <div class="digityu-standard-process-design">
+
+                            <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'vector-32.svg') }}" width="145px" class="digram-800 digityu-none" alt="">
+                        </div>
+                        <div class="digityu-standard-process-design">
+                            <div class="digit-circles">
+                                <b>1</b>
+                            </div>
+                            <h6 class="mt-2">Research</h6>
+                            <h6>We do research before we start any projects</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="digityu-three-images">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1>Be Inspired. Start today!</h1>
+                <h2>Checkout the top performing stores built with webx Ecomerce</h2>
+            </div>
+            <div class="col-lg-3 mt-5">
+                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'3629 1.png') }}" alt="" width="100%">
+            </div>
+
+            <div class="col-lg-3 mt-5">
+                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'3639733 1.png') }}" alt="" width="100%">
+            </div>
+
+            <div class="col-lg-3 mt-5">
+                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'3591916 1.png') }}" alt="" width="100%">
+            </div>
+
+            <div class="col-lg-3 mt-5">
+                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'3629 1.png') }}" alt="" width="100%">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="digityu-price-plans">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>We offer great price plans for the application</h2>
+                <p>Objectively market-driven intellectual capital rather than covalent best practices facilitate
+                    strategic information before innovation.</p>
+            </div>
+            <div class="row digityu-plans-margin">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card digityu-plans-card">
+                        <div class="card-body">
+                            <h6>Starter Plan</h6>
+                            <div class="d-flex">
+                                <h1>$5</h1>
+                                <span class="digityu-plans-style">/Per Month</span>
+                            </div>
+                            <p>This package is suitable for teams 1-15 people</p>
+                            <hr class="mt-4">
+                            <div class="digityu-plans-shedule">
+                                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'icon23.svg') }}" width="17px" alt="">
+                                <span class="mx-1">10 GB Disk Space</span>
+                            </div>
+
+                            <div class="digityu-plans-shedule">
+                                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'icon23.svg') }}" width="17px" alt="">
+                                <span class="mx-1">1 Year Support</span>
+                            </div>
+
+                            <div class="digityu-plans-shedule">
+                                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'icon23.svg') }}" width="17px" alt="">
+                                <span class="mx-1">500 Queries</span>
+                            </div>
+
+                            <div class="digityu-plans-shedule">
+                                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'icon23.svg') }}" width="17px" alt="">
+                                <span class="mx-1">Basic Statistics</span>
+                            </div>
+
+                            <div class="digityu-plans-shedule">
+                                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'icon23.svg') }}" width="17px" alt="">
+                                <span class="mx-1">Free Custom Domain</span>
+                            </div>
+
+                            <div class="text-center">
+                                <button class="digityu-plans-btn">Purchase Now</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card digityu-plans-card">
+                        <div class="card-body">
+                            <h6>Basic Plan</h6>
+                            <div class="d-flex">
+                                <h1>$20</h1>
+                                <span class="digityu-plans-style">/Per Month</span>
+                            </div>
+                            <p>This package is suitable for teams 1-15 people</p>
+                            <hr class="mt-4">
+                            <div class="digityu-plans-shedule">
+                                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'icon23.svg') }}" width="17px" alt="">
+                                <span class="mx-1">500 GB Disk Space</span>
+                            </div>
+
+                            <div class="digityu-plans-shedule">
+                                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'icon23.svg') }}" width="17px" alt="">
+                                <span class="mx-1">5 Year Support</span>
+                            </div>
+
+                            <div class="digityu-plans-shedule">
+                                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'icon23.svg') }}" width="17px" alt="">
+                                <span class="mx-1">600 Queries</span>
+                            </div>
+
+                            <div class="digityu-plans-shedule">
+                                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'icon23.svg') }}" width="17px" alt="">
+                                <span class="mx-1">Basic Statistics</span>
+                            </div>
+
+                            <div class="digityu-plans-shedule">
+                                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'icon23.svg') }}" width="17px" alt="">
+                                <span class="mx-1">Free Custom Domain</span>
+                            </div>
+
+                            <div class="text-center">
+                                <button class="digityu-plans-btn">Purchase Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card digityu-plans-card">
+                        <div class="card-body">
+                            <h6>Popular Plan</h6>
+                            <div class="d-flex">
+                                <h1>$46</h1>
+                                <span class="digityu-plans-style">/Per Month</span>
+                            </div>
+                            <p>This package is suitable for teams 1-15 people</p>
+                            <hr class="mt-4">
+                            <div class="digityu-plans-shedule">
+                                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'icon23.svg') }}" width="17px" alt="">
+                                <span class="mx-1">800 GB Disk Space</span>
+                            </div>
+
+                            <div class="digityu-plans-shedule">
+                                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'icon23.svg') }}" width="17px" alt="">
+                                <span class="mx-1">10 Year Support</span>
+                            </div>
+
+                            <div class="digityu-plans-shedule">
+                                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'icon23.svg') }}" width="17px" alt="">
+                                <span class="mx-1">800 Queries</span>
+                            </div>
+
+                            <div class="digityu-plans-shedule">
+                                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'icon23.svg') }}" width="17px" alt="">
+                                <span class="mx-1">Fully Statistics</span>
+                            </div>
+
+                            <div class="digityu-plans-shedule">
+                                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'icon23.svg') }}" width="17px" alt="">
+                                <span class="mx-1">Free Custom Domain</span>
+                            </div>
+
+                            <div class="text-center">
+                                <button class="digityu-plans-btn">Purchase Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card digityu-plans-card">
+                        <div class="card-body">
+                            <h6>Premium Plan</h6>
+                            <div class="d-flex">
+                                <h1>$90</h1>
+                                <span class="digityu-plans-style">/Per Month</span>
+                            </div>
+                            <p>This package is suitable for teams 1-15 people</p>
+                            <hr class="mt-4">
+                            <div class="digityu-plans-shedule">
+                                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'icon23.svg') }}" width="17px" alt="">
+                                <span class="mx-1">1000 GB Disk Space</span>
+                            </div>
+
+                            <div class="digityu-plans-shedule">
+                                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'icon23.svg') }}" width="17px" alt="">
+                                <span class="mx-1">Unlimited Support</span>
+                            </div>
+
+                            <div class="digityu-plans-shedule">
+                                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'icon23.svg') }}" width="17px" alt="">
+                                <span class="mx-1">Unlimited Queries</span>
+                            </div>
+
+                            <div class="digityu-plans-shedule">
+                                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'icon23.svg') }}" width="17px" alt="">
+                                <span class="mx-1">Fully Statistics</span>
+                            </div>
+
+                            <div class="digityu-plans-shedule">
+                                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'icon23.svg') }}" width="17px" alt="">
+                                <span class="mx-1">Free Custom Domain</span>
+                            </div>
+
+                            <div class="text-center">
+                                <button class="digityu-plans-btn">Purchase Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="digityu-clints">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>What our satisfied clients say about Sark</h2>
+                <p>Landing is a network of fully furnished apartments across the whole country, so no matter where
+                    you land, it'll always feel like home.</p>
+            </div>
+
+            <div class="col-lg-12">
+                <div class="owl-carousel featured-carousel owl-theme mt-4">
+                    <div class="item">
+                        <div class="card rounded p-3">
+                            <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'favourite31.svg') }}" class="digityu-clint-images mt-4" alt="">
+                            <div class="card-body">
+                                <h5>“I’m enjoying it!! I like working for Landing. I’ve been cleaning for a while so
+                                    the work is easy and straightforward imo. I really don’t have any issues with
+                                    SARK.</h5>
+
+                                <div class="pb-3 d-flex align-items-center">
+                                    <span class="btn btn-home-chart">
+                                        <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'oval@2x.png') }}" alt="" class="clints-images">
+                                    </span>
+                                    <div class="home-chart-one ms-4">
+                                        <h4 class="home-chart-one fw-bold mb-2">Leslie Alexander</h4>
+                                        <span class="text-muted">Founder</span>
                                     </div>
-                                    <input type="text" placeholder="{{ __('Enter your email...') }}" name="email">
                                 </div>
-                                <div class="hero-btn">
-                                    <button type="submit">{{ __('Start Free Trial') }}</button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="card rounded p-3">
+                            <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'favourite31.svg') }}" class="digityu-clint-images mt-4" alt="">
+                            <div class="card-body">
+                                <h5>“Great flexibility! I really like the flexibility of the Apps. The higher the
+                                    ratings we have the better chance. It’s a good work environment they answer in a
+                                    timely.”</h5>
+
+                                <div class="pb-3 d-flex align-items-center">
+                                    <span class="btn btn-home-chart">
+                                        <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'oval1@2x.png') }}" alt="" class="clints-images">
+                                    </span>
+                                    <div class="home-chart-one ms-4">
+                                        <h4 class="home-chart-one fw-bold mb-2">Leslie Alexander</h4>
+                                        <span class="text-muted">Founder</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="card rounded p-3">
+                            <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'favourite31.svg') }}" class="digityu-clint-images mt-4" alt="">
+                            <div class="card-body">
+                                <h5>I love SARK. The market is slow in some locations and booming in the big
+                                    cities.It is very professional and made you feel appreciated for the work you
+                                    were doing.</h5>
+
+                                <div class="pb-3 d-flex align-items-center">
+                                    <span class="btn btn-home-chart">
+                                        <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'oval2@2x.png') }}" alt="" class="clints-images">
+                                    </span>
+                                    <div class="home-chart-one ms-4">
+                                        <h4 class="home-chart-one fw-bold mb-2">Leslie Alexander</h4>
+                                        <span class="text-muted">Founder</span>
+                                    </div>
                                 </div>
                             </div>
-                        </form>
-                        <div class="hero-small-message">
-                            <p>{{ __('hero_small_message') }}</p>
                         </div>
-                  </div>
-              </div>
-              <div class="col-lg-7">
-                  <div class="hero-img">
-                      @php
-                      $hero_img=$info->hero_img ?? '';
-                      @endphp
-                      <img class="img-fluid" src="{{ asset('uploads/'.$hero_img) }}" alt="">
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-</section>
-<!-- hero area end -->
-
-<!-- demo area start -->
-<section>
-    <div class="demo-area">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="demo-header-area">
-                        <h1>{{ __('See Our Themes Lists') }}</h1>
-                        <p>{{ __('theme_des') }}</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="demo-header-right-area">
-                        <a href="{{ url('demos') }}">{{ __('Explore More Themes') }} <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"/></svg></a>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-5">
-                @foreach ($demos as $demo)
-                <div class="col-lg-4">
-                    <div class="single-demo text-center">
-                        <div class="demo-img">
-                            @php
-                                $data = json_decode($demo->meta->value ?? '');
-                            @endphp
-                            <a href="{{ $data->theme_url ?? '' }}" target="_blank"><img class="img-fluid" src="{{ asset('uploads/demo/'.$data->theme_image ?? '') }}" alt=""></a>
-                        </div>
-                        <div class="demo-name">
-                            <h4>{{ $demo->title }}</h4>
-                        </div>
-                    </div>
-                </div>
-                @endforeach
-            </div>
-        </div>
-    </div>
-</section>
-<!-- demo area end -->
-
-<!-- features area start -->
-<section>
-  <div class="features-area pt-150 mb-150">
-      <div class="container">
-          <div class="row align-items-center">
-              <div class="col-lg-7">
-                  <div class="row">
-                      @foreach ($services as $service)
-                        <div class="col-lg-6">
-                          <div class="single-features">
-                              @php
-                                  $serviceinfo = json_decode($service->servicemeta->value ?? '');
-                              @endphp
-                              <div class="features-img">
-                                  <img src="{{ asset($serviceinfo->image ?? '') }}" alt="">
-                              </div>
-                              <div class="features-title">
-                                  <h4>{{ $service->title }}</h4>
-                              </div>
-                              
-                              <div class="features-des">
-                                  <p>{{ $serviceinfo->short_content ?? '' }}</p>
-                              </div>
-                          </div>
-                      </div>
-                      @endforeach
-                  </div>
-              </div>
-              <div class="col-lg-5">
-                  <div class="key-features-content">
-                      <h5>{{ __('Our Key Features') }}</h5>
-                      <h2>{{ __('service_title') }}</h2>
-                      <p>{{ __("service_des") }}</p>
-                      <div class="features-btn">
-                          <a href="#">{{ __('Learn More') }}</a>
-                          <a href="{{ url('/contact') }}">{{ __('Talk with us') }}</a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-</section>
-<!-- features area end -->
-
-<!-- pricing area start -->
-<section>
-  <div class="pricing-area pt-150 pb-150">
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-6 offset-lg-3">
-                  <div class="pricing-header-area text-center">
-                      <h2>{{ __('Pricing & Plans') }}</h2>
-                      <p>{{ __('With lots of unique blocks, you can easily build a page without coding. Build your next landing page.') }}</p>
-                  </div>
-              </div>
-          </div>
-          <div class="row mt-5">
-              @foreach ($plans as $plan)
-              <div class="col-lg-4">
-                <div class="single-pricing">
-                    <div class="pricing-header">
-                        <span>{{ $plan->name }}</span>
-                    </div>
-                    <div class="pricing-middle-area">
-                        <div class="pricing-monthly-area">
-                            <span>{{ get_option('currency_symbol') }}</span>
-                            <h2>{{ $plan->price }}</h2>
-                            <span> /{{ $plan->duration }} {{ __('Days') }}</span>
-                        </div>
-                        <div class="pricing-des">
-                            <p>{{ $plan->is_trial == 1 ? __(' No Credit Card Required') : '' }}</p>
-                        </div>
-                    </div>
-                    @php
-                      $plandata = json_decode($plan->data);
-
-                    @endphp
-                    <div class="pricing-menu-area">
-                        <nav>
-                            <ul>
-                                @foreach($plandata as $key => $row)
-                                <li>
-                                    
-                                    
-                                    @if($row == 'off') 
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"/></svg>
-                                    @else
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" fill="rgba(90,228,166,1)"/></svg>
-                                    @endif
-                                    {{ ucfirst(str_replace('_',' ',$key)) }}{{ $row != 'off' && $row != 'on' ? ': '.$row : '' }}{{ $key == 'storage_limit' ? ' MB' : '' }}
-                                </li>
-                                @endforeach
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="pricing-btn">
-                        <a href="{{ route('user.register') }}">{{ __('Become A Partner') }} <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"/></svg></a>
-                    </div>
-                </div>
-              </div>
-              @endforeach
-          </div>
-      </div>
-  </div>
-</section>
-<!-- pricing area end -->
-
-<!-- Details area Start -->
-<section>
-    <div class="details-area-start mt-150">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-7">
-                    <div class="details-img">
-                        <img class="img-fluid" src="{{ asset('uploads/'.$info->market_img ?? '') }}" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="details-content">
-                        <h3>{{ __('Market your business') }}</h3>
-                        <p>{{ __('market_des') }}</p>
-                        <a href="{{ $info->market_url ?? '' }}">{{ __('Explore how to market your busines') }}s <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"/></svg></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- Details area end -->
 
-<!-- Details area Start -->
-<section>
-    <div class="details-area-start mt-150">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-5">
-                    <div class="details-content">
-                        <h3>{{ __('Sell everywhere') }}</h3>
-                        <p>{{ __('sell_des') }}</p>
-                        <a href="{{ $info->sell_url ?? '' }}">{{ __('Explore ways to sell') }} <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"/></svg></a>
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="details-img">
-                        <img class="img-fluid" src="{{ asset('uploads/'.$info->sell_img ?? '') }}" alt="">
-                    </div>
-                </div>
+<section class="digityu-orbit">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <h1>Trusted by more than 50k companies</h1>
+                <p>We are trusted by more than 50 thousand companies worldwide. We provide the best support desk
+                    service ever.</p>
+            </div>
+
+            <div class="col-lg-7">
+                <img src="{{ asset(config('constants.DIGITYU_IMAGES_PATH').'logos.svg') }}" width="100%" height="450px" alt="">
             </div>
         </div>
     </div>
 </section>
-<!-- Details area end -->
-
-
-<!-- blog area start -->
-<section>
-  <div class="blog-area mb-150 mt-150">
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-6 offset-lg-3">
-                  <div class="blog-header-area text-center">
-                      <h2>{{ __('Our Recent Story') }}</h2>
-                      <p>{{ __('news_des') }}</p>
-                  </div>
-              </div>
-          </div>
-          <div class="row mt-5">
-              @foreach ($blogs as $blog)
-              <div class="col-lg-4">
-                <div class="single-blog">
-                    <div class="blog-img">
-                        <img class="img-fluid" src="{{ asset($blog->preview->value) }}" alt="">
-                    </div>
-                    <div class="blog-content">
-                        <div class="blog-author-date">
-                            <span>{{ $blog->created_at->toDateString() }}</span>
-                        </div>
-                        <div class="blog-title">
-                            <h2>{{ $blog->title }}</h2>
-                        </div>
-                        <div class="blog-des">
-                            <p>{{ $blog->excerpt->value ?? '' }}</p>
-                        </div>
-                        <div class="blog-action">
-                            <a href="{{ route('blog.show',$blog->slug) }}">{{ __('Read Story') }} <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2z"/></svg></a>
-                        </div>
-                    </div>
-                </div>
-              </div> 
-              @endforeach
-          </div>
-      </div>
-  </div>
-</section>
-<!-- blog area end -->
-
 <!-- footer area start -->
-@include('layouts.frontend.partials.footer')
+@include('layouts.digityu.partials.footer')
 <!-- footer area end -->
 @endsection

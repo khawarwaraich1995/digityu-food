@@ -1,0 +1,1768 @@
+/* NAV CSS SATRT */
+
+.digit-theme-colort {
+  background-color: #10b28a;
+  color: #10b28a;
+}
+
+.logo-img {
+  width: 235px;
+  height: 59px;
+}
+
+nav a {
+  color: white !important;
+  font-weight: 600 !important;
+  margin-right: 10px !important;
+}
+
+.dropdown-item {
+  color: #10b28a !important;
+}
+
+
+.nav-btn {
+  width: 120px;
+  height: 34.26px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 8px;
+  color: #10b28a;
+  background-color: white;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.nav-btn:hover {
+  background-color: #10b28a;
+  color: white;
+  border: 1px solid white;
+}
+
+
+
+/* NAV CSS END */
+
+
+/* HOME PAGE CSS START */
+
+
+.digityu-bg-main {
+  width: 100%;
+  height: 555px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(/images/main-image.png);
+
+}
+
+.digi-index {
+  z-index: 9999;
+}
+
+.bg-div {
+  top: 0;
+  left: 0;
+  background-color: rgba(16, 178, 138, 0.9);
+  width: 100%;
+  height: 605px;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand.abs {
+    position: absolute;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+}
+
+
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 700px;
+}
+
+.rectangle-div15 {
+  box-shadow: 0 100px 80px rgb(0 0 0 / 7%), 0 41.777610778808594px 33.42px rgb(0 0 0 / 5%), 0 22.3363094329834px 17.87px rgb(0 0 0 / 4%), 0 12.521552085876465px 10.02px rgb(0 0 0 / 4%), 0 6.650102138519287px 5.32px rgb(0 0 0 / 3%), 0 2.767256498336792px 2.21px rgb(0 0 0 / 2%);
+  height: 100px;
+  z-index: 99999;
+}
+
+.ellipse-icon,
+.ellipse-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+}
+
+.ellipse-icon1 {
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+}
+
+.digityu-main {
+  z-index: 999 !important;
+  position: absolute;
+  top: 130px;
+  left: 120px;
+  display: inline-block;
+
+}
+
+.digityu-main h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: white;
+  text-transform: capitalize;
+}
+
+.digityu-main p {
+  position: absolute;
+  top: 170px;
+  left: 5px;
+  font-size: 20px;
+  color: white;
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+.digityu-main .p1 {
+  position: absolute;
+  top: 210px;
+  left: 5px;
+  font-size: 20px;
+  color: white;
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+.start-your-online-store {
+  position: absolute;
+  background-color: white;
+  color: #10b28a;
+  border: none;
+  border-radius: 8px;
+  height: 60px;
+  top: 300px;
+  left: 5px;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 0px 25px 0 25px;
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+.start-your-online-store:hover {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.digityu-main .card {
+  border-radius: 10px;
+}
+
+
+
+.digityu-main-div1-style {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: white;
+  background-color: #10b28abf;
+}
+
+.digityu-main-div1 h5 {
+  margin-left: 45px;
+  color: #10b28abf;
+}
+
+.digityu-main-div1-style i {
+  color: white;
+  padding: 5px;
+}
+
+.digityu-main-div2 {
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+}
+
+.digityu-main-div2-style {
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  width: 60px;
+  height: 50px;
+}
+
+.digityu-main-div2 h6 {
+  font-size: 13px !important;
+}
+
+.digityu-main-div3 {
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  color: #10b28abf;
+}
+
+.digityu-main-div5-style {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: white;
+  background-color: #10b28abf;
+}
+
+.digityu-main-div5 h5 {
+  font-size: 17px;
+  margin-left: 20px;
+  color: #10b28abf;
+}
+
+.digityu-main-div5-style i {
+  color: white;
+  padding: 5px;
+}
+
+.btn-check-out {
+  border: 0;
+  padding: 0;
+  background-color: #10b28aeb;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 15px;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 25%);
+  width: 210px;
+  height: 35px;
+}
+
+.digityu-project h2 {
+  width: 81%;
+  font-weight: 700;
+  margin-top: 120px;
+  color: black;
+}
+
+.digityu-project p {
+  width: 93%;
+  margin-top: 50px;
+  font-size: 13px;
+  color: #6c757d;
+}
+
+.digityu-project hr {
+  width: 90%;
+  margin-top: 100px;
+  color: #6c757d;
+}
+
+.digityu-project-demo {
+  width: 65%;
+  font-size: 12px;
+  margin-top: 20px;
+  color: #6c757d;
+}
+
+.digityu-project-demo h1 {
+  font-weight: 700;
+  color: black;
+}
+
+.digityu-project-btn {
+  width: 150.11px;
+  height: 55.04px;
+  background-color: #10b28a;
+  color: white;
+  border: none;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.digityu-project-btn:hover {
+  background-color: white;
+  color: #10b28a;
+  border: 1px solid #10b28a;
+}
+
+.digityu-project img {
+  margin-top: 40px;
+}
+
+.digityu-home-chart {
+  background-color: #f8fafc;
+  /*margin-top: 80px;*/
+}
+
+.digityu-home-chart h6 {
+  color: #0094ff;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.digityu-home-chart h2 {
+  width: 32%;
+  margin: 0 auto;
+  font-weight: 700;
+  color: black;
+  margin-top: 15px;
+}
+
+.btn-home-chart {
+  border-radius: 50%;
+  padding: 8px;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+}
+
+.home-chart-one {
+  font-size: 13px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.demo-shadows:hover {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+
+.digityu-standard-process {
+  background-color: #10b28a;
+}
+
+.digityu-standard-process h2 {
+  color: white;
+  width: 32%;
+  margin: 0 auto;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.digityu-standard-process p {
+  width: 30%;
+  margin-top: 35px !important;
+  font-size: 13px;
+  color: white;
+  margin: 0 auto;
+}
+
+.digityu-diagram{
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+
+.digityu-diagram h6{
+  color: white;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.digityu-diagram p{
+  width: 100% !important;
+  color: #ffffffde !important;
+  margin-top: 20px !important;
+  font-size: 11px;
+  margin: 0px;
+}
+
+.digit-move{
+  margin-left: 33px;
+}
+
+.digit-circles{
+  background: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.digityu-standard-process b{
+    font-size: 25px;
+    color: #10b28a;
+}
+.digityu-standard-process-design {
+    width: 14.28%;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+
+
+.digityu-three-images h1 {
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+
+.digityu-three-images h2 {
+  font-weight: 700;
+  margin-top: 40px !important;
+  color: #6c757db0;
+  margin: 0 auto;
+  width: 83%;
+}
+
+.digityu-price-plans {
+  background-color: #14b0821a;
+  margin-top: 50px;
+
+}
+
+.digityu-price-plans h2 {
+  font-weight: 700;
+  margin-top: 50px !important;
+  color: black;
+  margin: 0 auto;
+  width: 37%;
+}
+.digityu-plans-card:hover{
+  background-color: #10b28a;
+  color: white;
+}
+.digityu-plans-card:hover.digityu-plans-card h1{
+  background-color: #10b28a;
+  color: white;
+}
+.digityu-plans-card:hover.digityu-plans-card p
+{
+  background-color: #10b28a;
+  color: white;
+}
+.digityu-plans-card:hover button.digityu-plans-btn
+{
+  background-color: #fff;
+  color: #10b28a;
+}
+
+
+.digityu-price-plans p {
+  font-weight: 700;
+  margin-top: 33px !important;
+  color: #0000008f;
+  margin: 0 auto;
+  width: 40%;
+  font-size: 12px;
+}
+
+.digityu-plans-margin{
+  margin-top: 70px;
+}
+
+.digityu-plans-card{
+  border-radius: 7px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.digityu-plans-card h6{
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.digityu-plans-card h1{
+  font-size: 33px;
+  font-weight: 700;
+  color: black;
+  margin-top: 25px;
+}
+
+.digityu-plans-style{
+  margin-top: 45px;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.digityu-plans-card p{
+  font-size: 11px;
+  font-weight: 700;
+  color: #00000061;
+  margin-top: 25px !important;
+  width: 86%;
+  margin: 0px;
+}
+
+.digityu-plans-shedule{
+  font-size: 11px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.digityu-plans-btn{
+  width: 200.11px;
+  height: 45.04px;
+  color: black;
+  background-color: transparent;
+  border: 1px solid #00000012;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+
+
+.digityu-clints{
+  margin-top: 40px;
+}
+
+
+.digityu-clints h2 {
+  font-weight: 700;
+  margin-top: 0px !important;
+  color: black;
+  margin: 0 auto;
+  width: 37%;
+}
+
+.digityu-clints p {
+  font-weight: 700;
+  margin-top: 33px !important;
+  color: #0000008f;
+  margin: 0 auto;
+  width: 40%;
+  font-size: 12px;
+}
+
+.digityu-clint-images{
+  width: 100px !important;
+  height:20px !important;
+  margin-left: 12px;
+}
+
+.digityu-clints h5{
+  font-size: 12px;
+  color: #000000ab;
+  line-height: 1.5;
+}
+
+.clints-images{
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.digityu-orbit{
+  margin-top: 30px;
+}
+
+.digityu-orbit h1{
+  margin-top: 90px;
+  font-weight: 700;
+  width: 85%;
+}
+
+.digityu-orbit p{
+  margin-top: 40px;
+  color: #00000087;
+  font-size: 15px;
+  width: 80%;
+}
+
+/* HOME PAGE CSS END */
+
+
+/* ABOUT-US PAGE CSS START */
+
+  /*first section*/
+  .control-project {
+    padding: 3rem 0rem;
+    margin-top: 50px;
+}
+
+.create-your-project h1 {
+    font-weight: 700;
+    width: 72%;
+}
+
+.we-are-strategy p {
+    color: #000000ab;
+    width: 72%;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.fiex-digit {
+    width: 72%;
+}
+
+.image6 {
+    position: relative;
+}
+
+.image-icon1 {
+    width: 100%;
+    position: relative;
+    height: 600px;
+    object-fit: cover;
+}
+
+.play-button-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.base {
+    border-radius: 10px;
+    background-color: #14b082;
+    width: 215.57px;
+    height: 215.28px;
+    padding: 20px;
+}
+
+.counter.cont-fix {
+    font-size: 35px;
+    color: #14b082;
+    font-weight: 700;
+}
+
+.counter.cont-fix.fix {
+    color: #ff8a8a;
+}
+
+.div129 p {
+    line-height: 45.4px;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+
+}
+
+.div129 {
+    width: 113.77px;
+}
+
+.productivity-increase-on {
+    font-weight: 500;
+    width: 187.24px;
+    color: white;
+}
+
+span.counter-suprt {
+    width: 60px;
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 700;
+    color: #0000008a;
+}
+
+.card-2 {
+    position: absolute;
+    bottom: 50px;
+    left: -90px;
+}
+
+/* End first section*/
+/* second section*/
+.divider-ico {
+    background-image: url(../images/divider.svg);
+    background: #14b082;
+}
+
+b.build-a-perfect {
+    color: white;
+    font-size: 35px;
+}
+
+.avatar-width {
+    /*margin: auto;*/
+    border-radius: 50%;
+    max-width: 75px;
+    margin: 20px 0px;
+}
+
+.content.graph {
+    font-size: 14px;
+    margin: 12px 0px;
+}
+
+p.name-profile {
+    font-weight: 700;
+    margin: 0;
+}
+
+p.name-desc {
+    font-size: 12px;
+}
+
+#customers-testimonials .box {
+    opacity: .2;
+    transform: scale3d(0.8, 0.8, 1);
+    -webkit-transform: scale3d(0.8, 0.8, 1);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}
+
+#customers-testimonials .owl-item.active.center .box {
+    opacity: 1;
+    transform: scale3d(1.0, 1.0, 1);
+    -webkit-transform: scale3d(1.0, 1.0, 1);
+}
+
+section.hero.is-info {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.level-item {
+    border-right: 1px solid #e0e0e0;
+}
+
+/* End second section*/
+
+
+
+.wrapper {
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.digit-item-image{
+  border: none !important;
+}
+
+.pulse {
+    width: 70px;
+    height: 70px;
+    background-color: #ffffff6b;
+    border-radius: 50%;
+    position: relative;
+    animation: animate 3s linear infinite;
+}
+
+.pulse i {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #fff;
+    height: 100%;
+    cursor: pointer;
+}
+
+@keyframes animate {
+    0% {
+        box-shadow: 0 0 0 0 rgb(255, 109, 74, 0.7), 0 0 0 0 rgb(255, 109, 74, 0.7);
+    }
+
+    40% {
+        box-shadow: 0 0 0 50px rgb(255, 109, 74, 0), 0 0 0 0 rgb(255, 109, 74, 0.7);
+    }
+
+    80% {
+        box-shadow: 0 0 0 50px rgb(255, 109, 74, 0), 0 0 0 30px rgb(255, 109, 74, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgb(255, 109, 74, 0), 0 0 0 30px rgb(255, 109, 74, 0);
+    }
+}
+
+
+/* ABOUT US PAGE CSS END */
+
+
+/* FEATURES PAGE CSS START */
+
+
+.digityu-features-heading {
+  margin-top: 40px;
+}
+
+.digityu-features-heading h6 {
+  color: #0094ff;
+  font-size: 12px;
+}
+
+.digityu-features-heading h2 {
+  width: 32%;
+  margin: 0 auto;
+  font-weight: 700;
+  color: black;
+  margin-top: 15px;
+}
+
+.digityu-customer {
+  background-color: #f8fafc;
+  margin-top: 25px;
+}
+
+.digityu-customer img {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.digityu-customer h2 {
+  width: 70%;
+  font-weight: 700;
+  color: black;
+  margin-top: 70px;
+}
+
+.digityu-customer p {
+  width: 60%;
+  font-size: 13px;
+  color: #3f3f46bf;
+  margin-top: 40px;
+}
+
+.digityu-customer-btn {
+  width: 230.11px;
+  height: 50.04px;
+  background-color: #10b28a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.digityu-customer-btn:hover {
+  background-color: white;
+  color: #10b28a;
+  border: 1px solid #10b28a;
+}
+
+.digityu-chart-img {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.digityu-customer-chart h2 {
+  width: 70%;
+  font-weight: 700;
+  color: black;
+  margin-top: 50px;
+}
+
+.btn-customer-chart {
+  border-radius: 50%;
+  padding: 0px;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+}
+
+.customer-chart {
+  font-size: 13px;
+  width: 50%;
+  margin-top: 25px;
+}
+
+
+/* FEATURES PAGE CSS END */
+
+
+
+/* LOGIN & SIGNUU PAGE  CSS SATRT */
+
+.digityu-login h2 {
+  margin-top: 0px;
+  font-weight: 700;
+}
+
+.login-up1 {
+  font-weight: 500;
+  color: #0094ff;
+}
+
+.login-up1 a {
+  text-decoration: none;
+}
+
+.form-control {
+  background-color: #d0ccc72b !important;
+  display: block;
+  width: 100%;
+  padding: 0.999rem 1.75rem;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 10px !important;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-login {
+  width: 373.11px;
+  height: 59.04px;
+  background-color: #10b28a;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.btn-google {
+  width: 373.11px;
+  height: 59.04px;
+  background-color: white;
+  color: black;
+  border: 1px solid #6c757d61;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.btn-login:hover {
+  background-color: white;
+  color: #10b28a;
+  border: 1px solid #10b28a;
+}
+
+.btn-google:hover {
+  background-color: #10b28a;
+  color: white;
+}
+
+
+
+/* LOGIN  CSS END */
+
+
+
+/* tabel css start */
+
+/* RESET RULES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+:root {
+  --white: white;
+  --gray: #999;
+  --lightgray: whitesmoke;
+  --darkgreen: #2a9d8f;
+  --popular: #ffdd40;
+  --starter: #f73859;
+  --essential: #00aeef;
+  --professional: #ff7f45;
+}
+
+.saves-btn {
+  width: 100px;
+  font-weight: 700;
+  padding: 6px 13px 8px 13px;
+  margin-bottom: 40px;
+  border-radius: 30px;
+  text-align: center;
+  display: inline-grid;
+  border: none;
+  background-color: #c2c2c2cf;
+  color: #10b28a;
+}
+
+.most-popular-btn {
+  width: 147px;
+  font-weight: 700;
+  padding: 11px 13px 11px 23px;
+  border-radius: 8px;
+  text-align: center;
+  display: inline-flex;
+  border: none;
+  background-color: #10b28a;
+  color: white;
+  margin-top: -15px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+table {
+  border-collapse: collapse;
+}
+
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.table-main {
+  max-width: 1000px;
+  text-align: center;
+  padding: 0 10px;
+  margin: 0 auto;
+  z-index: 999;
+}
+
+.intro-text {
+  padding: 25px 0;
+}
+
+.intro-text a {
+  text-decoration: underline;
+}
+
+/* SWITCH STYLES
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.switch-wrapper {
+  position: relative;
+  display: inline-flex;
+  padding: 4px;
+  border: 1px solid lightgrey;
+  margin-bottom: 40px;
+  border-radius: 30px;
+  background: var(--white);
+}
+
+.switch-wrapper [type="radio"] {
+  position: absolute;
+  left: -9999px;
+}
+
+.switch-wrapper [type="radio"]:checked#monthly~label[for="monthly"],
+.switch-wrapper [type="radio"]:checked#yearly~label[for="yearly"] {
+  color: var(--white);
+}
+
+.switch-wrapper [type="radio"]:checked#monthly~label[for="monthly"]:hover,
+.switch-wrapper [type="radio"]:checked#yearly~label[for="yearly"]:hover {
+  background: transparent;
+}
+
+.switch-wrapper [type="radio"]:checked#monthly+label[for="yearly"]~.highlighter {
+  transform: none;
+}
+
+.switch-wrapper [type="radio"]:checked#yearly+label[for="monthly"]~.highlighter {
+  transform: translateX(100%);
+}
+
+.switch-wrapper label {
+  font-size: 16px;
+  z-index: 1;
+  min-width: 100px;
+  line-height: 32px;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: color 0.25s ease-in-out;
+}
+
+.switch-wrapper label:hover {
+  background: var(--lightgray);
+}
+
+.switch-wrapper .highlighter {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: calc(50% - 4px);
+  height: calc(100% - 8px);
+  border-radius: 30px;
+  background: var(--darkgreen);
+  transition: transform 0.25s ease-in-out;
+}
+
+/* TABLE STYLES
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+table th .popular {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  font-size: 11px;
+  background: var(--popular);
+  padding: 4px 8px;
+  border-radius: 2px;
+}
+
+table th .amount {
+  font-size: 2rem;
+}
+
+table th .amount span {
+  display: block;
+  transform: translateY(-8px);
+}
+
+table th:nth-child(2) .amount {
+  color: var(--starter);
+}
+
+table th:nth-child(3) .amount {
+  color: var(--essential);
+}
+
+table th:nth-child(4) .amount {
+  color: var(--professional);
+}
+
+table th .billing-msg,
+table th .amount span {
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+
+
+table svg {
+  width: 18px;
+  height: 18px;
+}
+
+table svg.not-included {
+  fill: var(--gray);
+}
+
+table svg.starter {
+  fill: var(--starter);
+}
+
+table svg.essential {
+  fill: var(--essential);
+}
+
+table svg.professional {
+  fill: var(--professional);
+}
+
+table .hide {
+  display: none;
+}
+
+/* MQ
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (min-width: 768px) {
+  td {
+    padding: 20px;
+  }
+}
+
+.description-change {
+  font-size: 15px !important;
+  font-weight: 400;
+}
+
+.heading-tag {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.td-heading {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  td {
+    padding: 1px;
+  }
+
+  .description-change {
+    font-size: 12px !important;
+    font-weight: 200;
+
+  }
+
+  .heading-tag {
+    font-size: 15px;
+    margin-top: 5px;
+  }
+
+  .td-heading {
+    font-size: 15px;
+  }
+
+  .fonts {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+/* TABLE CSS END */
+
+
+
+/* APP PAGE CSS START */
+
+.mobile-app-one {
+  margin-top: 100px;
+}
+
+.mobile-app-one h1 {
+  width: 80%;
+  color: #10b28a;
+  font-weight: 700;
+}
+
+.mobile-app-one p {
+  width: 83%;
+  font-size: 14px;
+  margin-top: 25px;
+  color: #6c757d;
+}
+
+.mobile-app-one-emo {
+  margin-top: 60px;
+}
+
+.mobile-app-one-emo span {
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+.mobile-app-one-emo p {
+  margin-left: 70px;
+  width: 50%;
+  margin-top: 0px;
+}
+
+/*  */
+.mobile-app-two {
+  margin-top: 15px;
+  margin-left: 80px;
+}
+
+.mobile-app-two h1 {
+  width: 80%;
+  color: #10b28a;
+  font-weight: 700;
+}
+
+.mobile-app-two p {
+  font-size: 14px;
+  margin-top: 25px;
+  color: #6c757d;
+}
+
+.mobile-app-two-emo {
+  margin-top: 60px;
+}
+
+.mobile-app-two-emo span {
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+.mobile-app-two-emo p {
+  margin-left: 70px;
+  width: 50%;
+  margin-top: 0px;
+}
+
+/* APP PAGE CSS END */
+
+
+
+
+
+/* CONTACT US PAGE CSS START */
+
+.digityu-contact {
+  background-image: url(../images/bg12.svg);
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+}
+
+.digityu-contact h1 {
+  font-weight: 700;
+  color: white;
+  margin-top: 30px;
+}
+
+.btn-contact {
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+}
+
+.btn-contact-email {
+  background-color: white;
+  border-radius: 50%;
+  padding: 7px;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+}
+
+.contact-num {
+  color: #ffffffc9;
+  font-size: 13px;
+}
+
+.digityu-contact h6 {
+  width: 67%;
+  color: white;
+  margin-top: 50px;
+}
+
+.btn-contact-image {
+  border-radius: 50%;
+  padding: 0px;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  margin-top: 50px;
+}
+
+.contact-title {
+  color: #ffffffc9;
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+.digityu-form {
+  margin-top: 30px;
+  padding: 24px;
+}
+
+.digityu-form h5 {
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact-form-lable {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.contact-form-input {
+  background-color: transparent !important;
+  display: block;
+  width: 100%;
+  padding: 0.699rem 0.55rem;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 5px !important;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.contact-form-btn {
+  width: 100%;
+  height: 55.04px;
+  background-color: #10b28a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.contact-form-btn:hover {
+  background-color: white;
+  color: #10b28a;
+  border: 1px solid #10b28a;
+}
+
+/* CONTACT US PAGE CSS END */
+
+
+
+
+/* Footer CSS START */
+
+.section-download-color {
+  background-color: #f3f9fd;
+  margin-top: 20px;
+}
+
+.section-download-color h2 {
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.section-download-color p {
+  width: 81%;
+  margin-top: 40px;
+  color: #6c757d;
+}
+
+.footer-end-bg {
+  background-image: url(../images/bg11.svg);
+  width: 100%;
+  height: 450px;
+  background-position: center;
+}
+
+.footer-end-bg h1 {
+  margin-top: 80px;
+  color: white;
+}
+
+.footer-margin {
+  margin-top: 80px;
+}
+
+.footer-margin-mail {
+  margin-top: 60px;
+
+}
+
+.footer-margin-mail span {
+  font-size: 20px;
+}
+
+
+.navbar-expand-md {
+  margin-top: 175px;
+}
+
+
+/* Footer CSS END */
+
+
+
+
+/* MEDIA SCREEN */
+
+@media screen and (max-width: 800px) {
+
+  .footer-end-bg {
+    height: 500px;
+  }
+
+  .media-md {
+    display: none;
+  }
+
+  .media-start {
+    float: unset;
+  }
+
+  .media-start-one {
+    float: unset;
+    margin-top: -90px !important;
+  }
+
+  .footer-margin-mail {
+    margin-top: 30px;
+    margin-left: 6px;
+  }
+
+  .navbar-expand-md {
+    margin-top: 30px;
+  }
+
+  .digityu-form {
+    padding: 0px;
+  }
+
+  .digityu-contact {
+    height: 1400px;
+  }
+
+  .digityu-contact h6 {
+    width: 100%;
+  }
+
+  .digityu-features-heading h2 {
+    width: 61%;
+  }
+
+  .digityu-customer h2 {
+    width: 81%;
+  }
+
+  .digityu-customer p {
+    width: 80%;
+  }
+
+  .digityu-customer-chart h2 {
+    width: 80%;
+  }
+
+  .digityu-bg-main {
+    height: 1240px;
+
+  }
+
+  .digityu-main {
+    z-index: 999 !important;
+    position: absolute;
+    top: 303px;
+    padding: 15px;
+    left: 15px;
+    display: inline-block;
+  }
+
+  .bg-div {
+    top: 0;
+    left: 0;
+    background-color: rgba(16, 178, 138, 0.9);
+    width: 100%;
+    height: 1240px;
+  }
+
+  .ellipse-icon {
+    height: 1500px;
+  }
+
+
+  .ellipse-icon1 {
+    height: 128-px;
+  }
+
+  .possition {
+    position: absolute;
+    top: 500px;
+  }
+
+  .cart-block {
+    margin-top: 260px;
+  }
+
+  .digityu-project h2 {
+    width: 100%;
+  }
+
+  .digityu-home-chart h2 {
+    width: 50%;
+  }
+
+  .digityu-standard-process h2 {
+    width: 90%;
+  }
+
+  .digityu-standard-process-design h6{
+    font-size: 12px;
+
+  }
+
+  .digityu-standard-process p {
+    width: 45%;
+  }
+
+  .digityu-price-plans h2{
+    width: 60%;
+  }
+
+  .digityu-price-plans p{
+    width: 60%;
+    font-size: 15px;
+  }
+
+  .digityu-clints h2{
+    width: 60%;
+  }
+
+  .digityu-clints p{
+    width: 60%;
+    font-size: 15px;
+  }
+
+  .digityu-orbit h1{
+    width: 100%;
+  }
+
+  .digityu-orbit p{
+    width: 100%;
+  }
+
+  .digram-800{
+    width: 80px;
+  }
+
+  .create-your-project h1{
+    width: 100%;
+}
+
+b.build-a-perfect{
+    font-size: 25px;
+}
+
+.digit-move {
+  margin-left: 10px;
+}
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+  .footer-end-bg {
+    height: 375px;
+  }
+
+  .footer-end-bg h1 {
+    font-size: 30px;
+  }
+
+  .mobile-app-one h1 {
+    width: 100%;
+  }
+
+
+  .footer-end-bg {
+    height: 660px;
+  }
+
+  .navbar-expand-md {
+    margin-top: 103px;
+  }
+
+  .nav-one-show {
+    display: inline-grid !important;
+  }
+
+  .digityu-form {
+    padding: 0px;
+  }
+
+  .digityu-contact {
+    height: 1500px;
+  }
+
+  .digityu-contact h6 {
+    width: 100%;
+  }
+
+  .digityu-features-heading h2 {
+    width: 90%;
+  }
+
+  .digityu-customer h2 {
+    width: 100%;
+  }
+
+  .digityu-customer p {
+    width: 100%;
+  }
+
+  .digityu-customer-chart h2 {
+    width: 100%;
+  }
+
+  .customer-chart {
+    width: 75%;
+  }
+
+  .digityu-main h1 {
+    font-size: 35px;
+  }
+
+  .digityu-main p {
+    top: 140px;
+    font-size: 17px;
+  }
+
+  .digityu-main .p1 {
+    top: 170px;
+  }
+
+  .start-your-online-store {
+    top: 240px;
+  }
+
+  .digityu-bg-main {
+    height: 1650px;
+  }
+
+  .bg-div {
+    height: 1650px;
+  }
+
+  .digityu-home-chart h2 {
+    width: 90%;
+  }
+
+  .digityu-standard-process h2 {
+    width: 70%;
+  }
+
+  .digityu-standard-process p {
+    width: 75%;
+  }
+
+  .digityu-three-images h1 {
+    font-size: 30px;
+  }
+
+  .digityu-three-images h2 {
+    width: 94%;
+  }
+
+  .digityu-price-plans h2{
+    width: 90%;
+  }
+
+  .digityu-price-plans p{
+    width: 80%;
+    font-size: 15px;
+  }
+
+  .digityu-clints h2{
+    width: 90%;
+  }
+
+  .digityu-clints p{
+    width: 80%;
+    font-size: 15px;
+  }
+
+  .we-are-strategy p{
+    width: 100%;
+}
+
+.card-2{
+    bottom: 360px;
+    left: 70px;
+}
+
+.digityu-none{
+  display: none;
+}
+
+.digityu-diagram {
+  margin-top: 54px;
+  margin-bottom: 20px;
+}
+
+.digit-move{
+  display: -webkit-inline-box !important;
+  margin-left: -18px;
+}
+
+.digityu-standard-process-design{
+  width: 100% !important;
+  margin-top: 25px;
+}
+}

@@ -56,6 +56,60 @@ class WelcomeController extends Controller
 
         return view('welcome',compact('info','services','plans','blogs','demos'));
     }
+    public function app()
+    {
+        $demos = Term::where([
+            ['type','theme_demo'],
+            ['status',1]
+        ])->with('meta')->latest()->paginate(6);
+
+        $seo = get_option('seo_gallery',true);
+
+        JsonLdMulti::setTitle($seo->site_name ?? env('APP_NAME'));
+        JsonLdMulti::setDescription($seo->matadescription ?? null);
+        JsonLdMulti::addImage(asset('uploads/logo.png'));
+
+        SEOMeta::setTitle($seo->site_name ?? env('APP_NAME'));
+        SEOMeta::setDescription($seo->matadescription ?? null);
+        SEOMeta::addKeyword($seo->tags ?? null);
+
+        SEOTools::setTitle($seo->site_name ?? env('APP_NAME'));
+        SEOTools::setDescription($seo->matadescription ?? null);
+        SEOTools::setCanonical(url('/'));
+        SEOTools::opengraph()->addProperty('keywords', $seo->matatag ?? null);
+        SEOTools::opengraph()->addProperty('image', asset('uploads/logo.png'));
+        SEOTools::twitter()->setTitle($seo->site_name ?? env('APP_NAME'));
+        SEOTools::twitter()->setSite($seo->twitter_site_title ?? null);
+        SEOTools::jsonLd()->addImage(asset('uploads/logo.png'));
+        return view('digityu.App',compact('demos'));
+    }
+    public function features()
+    {
+        $demos = Term::where([
+            ['type','theme_demo'],
+            ['status',1]
+        ])->with('meta')->latest()->paginate(6);
+
+        $seo = get_option('seo_gallery',true);
+
+        JsonLdMulti::setTitle($seo->site_name ?? env('APP_NAME'));
+        JsonLdMulti::setDescription($seo->matadescription ?? null);
+        JsonLdMulti::addImage(asset('uploads/logo.png'));
+
+        SEOMeta::setTitle($seo->site_name ?? env('APP_NAME'));
+        SEOMeta::setDescription($seo->matadescription ?? null);
+        SEOMeta::addKeyword($seo->tags ?? null);
+
+        SEOTools::setTitle($seo->site_name ?? env('APP_NAME'));
+        SEOTools::setDescription($seo->matadescription ?? null);
+        SEOTools::setCanonical(url('/'));
+        SEOTools::opengraph()->addProperty('keywords', $seo->matatag ?? null);
+        SEOTools::opengraph()->addProperty('image', asset('uploads/logo.png'));
+        SEOTools::twitter()->setTitle($seo->site_name ?? env('APP_NAME'));
+        SEOTools::twitter()->setSite($seo->twitter_site_title ?? null);
+        SEOTools::jsonLd()->addImage(asset('uploads/logo.png'));
+        return view('digityu.Features',compact('demos'));
+    }
 
     public function subscribe(Request $request)
     {
@@ -100,6 +154,143 @@ class WelcomeController extends Controller
 
         return view('demos',compact('demos'));
 
+    }
+    public function login()
+    {
+        $demos = Term::where([
+            ['type','theme_demo'],
+            ['status',1]
+        ])->with('meta')->latest()->paginate(6);
+
+        $seo=get_option('seo_gallery',true);
+
+        JsonLdMulti::setTitle($seo->site_name ?? env('APP_NAME'));
+        JsonLdMulti::setDescription($seo->matadescription ?? null);
+        JsonLdMulti::addImage(asset('uploads/logo.png'));
+
+        SEOMeta::setTitle($seo->site_name ?? env('APP_NAME'));
+        SEOMeta::setDescription($seo->matadescription ?? null);
+        SEOMeta::addKeyword($seo->tags ?? null);
+
+        SEOTools::setTitle($seo->site_name ?? env('APP_NAME'));
+        SEOTools::setDescription($seo->matadescription ?? null);
+        SEOTools::setCanonical(url('/'));
+        SEOTools::opengraph()->addProperty('keywords', $seo->matatag ?? null);
+        SEOTools::opengraph()->addProperty('image', asset('uploads/logo.png'));
+        SEOTools::twitter()->setTitle($seo->site_name ?? env('APP_NAME'));
+        SEOTools::twitter()->setSite($seo->twitter_site_title ?? null);
+        SEOTools::jsonLd()->addImage(asset('uploads/logo.png'));
+
+        return view('digityu.Login',compact('demos'));
+
+    }
+    public function signup()
+    {
+        $demos = Term::where([
+            ['type','theme_demo'],
+            ['status',1]
+        ])->with('meta')->latest()->paginate(6);
+
+        $seo=get_option('seo_gallery',true);
+
+        JsonLdMulti::setTitle($seo->site_name ?? env('APP_NAME'));
+        JsonLdMulti::setDescription($seo->matadescription ?? null);
+        JsonLdMulti::addImage(asset('uploads/logo.png'));
+
+        SEOMeta::setTitle($seo->site_name ?? env('APP_NAME'));
+        SEOMeta::setDescription($seo->matadescription ?? null);
+        SEOMeta::addKeyword($seo->tags ?? null);
+
+        SEOTools::setTitle($seo->site_name ?? env('APP_NAME'));
+        SEOTools::setDescription($seo->matadescription ?? null);
+        SEOTools::setCanonical(url('/'));
+        SEOTools::opengraph()->addProperty('keywords', $seo->matatag ?? null);
+        SEOTools::opengraph()->addProperty('image', asset('uploads/logo.png'));
+        SEOTools::twitter()->setTitle($seo->site_name ?? env('APP_NAME'));
+        SEOTools::twitter()->setSite($seo->twitter_site_title ?? null);
+        SEOTools::jsonLd()->addImage(asset('uploads/logo.png'));
+        return view('digityu.Signup',compact('demos'));
+    }
+    public function pricing()
+    {
+        $demos = Term::where([
+            ['type','theme_demo'],
+            ['status',1]
+        ])->with('meta')->latest()->paginate(6);
+
+        $seo=get_option('seo_gallery',true);
+
+        JsonLdMulti::setTitle($seo->site_name ?? env('APP_NAME'));
+        JsonLdMulti::setDescription($seo->matadescription ?? null);
+        JsonLdMulti::addImage(asset('uploads/logo.png'));
+
+        SEOMeta::setTitle($seo->site_name ?? env('APP_NAME'));
+        SEOMeta::setDescription($seo->matadescription ?? null);
+        SEOMeta::addKeyword($seo->tags ?? null);
+
+        SEOTools::setTitle($seo->site_name ?? env('APP_NAME'));
+        SEOTools::setDescription($seo->matadescription ?? null);
+        SEOTools::setCanonical(url('/'));
+        SEOTools::opengraph()->addProperty('keywords', $seo->matatag ?? null);
+        SEOTools::opengraph()->addProperty('image', asset('uploads/logo.png'));
+        SEOTools::twitter()->setTitle($seo->site_name ?? env('APP_NAME'));
+        SEOTools::twitter()->setSite($seo->twitter_site_title ?? null);
+        SEOTools::jsonLd()->addImage(asset('uploads/logo.png'));
+        return view('digityu.Pricing',compact('demos'));
+    }
+    public function aboutus()
+    {
+        $demos = Term::where([
+            ['type','theme_demo'],
+            ['status',1]
+        ])->with('meta')->latest()->paginate(6);
+
+        $seo=get_option('seo_gallery',true);
+
+        JsonLdMulti::setTitle($seo->site_name ?? env('APP_NAME'));
+        JsonLdMulti::setDescription($seo->matadescription ?? null);
+        JsonLdMulti::addImage(asset('uploads/logo.png'));
+
+        SEOMeta::setTitle($seo->site_name ?? env('APP_NAME'));
+        SEOMeta::setDescription($seo->matadescription ?? null);
+        SEOMeta::addKeyword($seo->tags ?? null);
+
+        SEOTools::setTitle($seo->site_name ?? env('APP_NAME'));
+        SEOTools::setDescription($seo->matadescription ?? null);
+        SEOTools::setCanonical(url('/'));
+        SEOTools::opengraph()->addProperty('keywords', $seo->matatag ?? null);
+        SEOTools::opengraph()->addProperty('image', asset('uploads/logo.png'));
+        SEOTools::twitter()->setTitle($seo->site_name ?? env('APP_NAME'));
+        SEOTools::twitter()->setSite($seo->twitter_site_title ?? null);
+        SEOTools::jsonLd()->addImage(asset('uploads/logo.png'));
+        return view('digityu.AboutUs',compact('demos'));
+    }
+    public function contactus()
+    {
+        $demos = Term::where([
+            ['type','theme_demo'],
+            ['status',1]
+        ])->with('meta')->latest()->paginate(6);
+
+        $seo=get_option('seo_gallery',true);
+
+        JsonLdMulti::setTitle($seo->site_name ?? env('APP_NAME'));
+        JsonLdMulti::setDescription($seo->matadescription ?? null);
+        JsonLdMulti::addImage(asset('uploads/logo.png'));
+
+        SEOMeta::setTitle($seo->site_name ?? env('APP_NAME'));
+        SEOMeta::setDescription($seo->matadescription ?? null);
+        SEOMeta::addKeyword($seo->tags ?? null);
+
+        SEOTools::setTitle($seo->site_name ?? env('APP_NAME'));
+        SEOTools::setDescription($seo->matadescription ?? null);
+        SEOTools::setCanonical(url('/'));
+        SEOTools::opengraph()->addProperty('keywords', $seo->matatag ?? null);
+        SEOTools::opengraph()->addProperty('image', asset('uploads/logo.png'));
+        SEOTools::twitter()->setTitle($seo->site_name ?? env('APP_NAME'));
+        SEOTools::twitter()->setSite($seo->twitter_site_title ?? null);
+        SEOTools::jsonLd()->addImage(asset('uploads/logo.png'));
+        return view('digityu.ContactUs',compact('demos'));
     }
 
     public function lang_switch(Request $request)
